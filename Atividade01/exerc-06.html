@@ -1,0 +1,16 @@
+<script>
+    //6 - Cálculo da Renda do Táxi:Faça um programa que calcule a renda diária de um motorista de táxi. O usuário deve informar a quilometragem rodada, o consumo de combustível e a receita obtida, e o programa deve calcular o consumo médio e o lucro líquido.
+     //Valor da gasolina : 5.80
+    //Entrada
+    let KM = parseFloat(prompt("Digite a quilometragem rodada:"))
+    let combustível = parseFloat(prompt("Digite o consumo de combustível:"))
+    let receita = parseFloat(prompt("Digite a receita obtida:"))
+    //Processamento
+    let resposta01 = (KM / combustível)
+    let resposta02 = (resposta01 * 5.80)
+    let resposta03 = receita - (resposta01 * 5.80)
+    //Saída
+    document.write("Seu lucro diário: " + resposta03)
+    document.write("    Seu consumo médio: " + resposta01)
+    
+    </script>

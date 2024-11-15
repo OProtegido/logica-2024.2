@@ -1,0 +1,16 @@
+<script>
+
+//5)Revestimento da parede:Declaração mais simples: Crie um programa que calcule o número de caixas de azulejos necessárias para cobrir as paredes de uma cozinha. O usuário deve informar as dimensões da cozinha, e o programa deve indicar quantas caixas são necessárias.
+
+    //Entrada
+    let comprimento = parseFloat(prompt("Qual o comprimento da cozinha?"))
+    let largura = parseFloat(prompt("Qual a largura da cozinha"))
+    let altura = parseFloat(prompt("Quala altura da cozinha?"))
+    //Processamento
+    let area1 = comprimento * altura
+    let area2 = largura * altura
+    let resposta = ((area1 * 2) + (area2 * 2)) / 1.5
+    //Saída
+    document.write("A quantidade de caixas necessarias: " + resposta)
+    
+    </script>
