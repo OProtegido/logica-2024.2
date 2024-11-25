@@ -5,9 +5,34 @@
 let temperatura = prompt("Digite a temperatura em graus Fahrenheit:")
 console.log("Temp.F;", temperatura)
 //Processamento
- let resposta = (temperatura - 32) * 5 / 9
- console.log("Respo:", resposta)
+ //let resposta = (temperatura - 32) * 5 / 9
+ //console.log("Respo:", resposta)
 //Saida
-alert("A temperatura em graus Celsius: " + resposta)
-document.write("A temperatura em graus Celsius: " + resposta)
+//alert("A temperatura em graus Celsius: " + resposta)
+//document.write("A temperatura em graus Celsius: " + resposta)
+
+
+//Processamento
+function CalcularGraus(temperatura) {
+    let Graus = (temperatura - 32) * 5 / 9
+return Graus
+}
+//saida
+document.write("A temperatura em graus Celsius: " + CalcularGraus (temperatura))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </script>

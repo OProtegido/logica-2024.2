@@ -4,8 +4,18 @@
 //Entrada
 let temperatura = parseFloat(prompt("Qual a tempertura em graus Celsius: "))
 //Processamento
-let F = ((temperatura * 9/5) + 32)
+//let F = ((temperatura * 9/5) + 32)
 //Saída
-document.write("temp:" + F)
+//document.write("temp:" + F)
+
+
+//Processamento
+function calcularTemp(temperatura) {
+    let Graus = ((temperatura * 9/5) + 32)
+return Graus
+}
+
+//Saida
+document.write("A temperatura em graus Fahrenheit: " + calcularTemp (temperatura))
 
 </script>
