@@ -1,0 +1,21 @@
+<script>
+ //6. Classificando números e o zero Instrução: Adapte o programa anterior para que ele classifique o número zero como neutro, ou seja, exiba a mensagem "zero" quando o número inserido for igual a zero.
+
+//Entrada
+let valor = parseFloat(prompt("Informe o valor:"))
+
+//Processamento
+let resposta = ""
+if (valor == 0 ) {
+    resposta = "zero"
+} 
+else if (valor > 0){ resposta = "positivo"
+} 
+else {
+    resposta = "negativo"
+}
+
+//Saida 
+document.write("O valor é " + resposta)
+
+</script>

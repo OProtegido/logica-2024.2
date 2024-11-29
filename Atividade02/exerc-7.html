@@ -1,0 +1,23 @@
+<script>
+    //7. Maior entre dois números Declaração: Desenvolva um programa que compare dois números e exiba o maior.
+    
+    function maiorNumero() {
+        // Entrada dos números via prompt
+        let num1 = parseFloat(prompt("Digite o primeiro número:"));
+        let num2 = parseFloat(prompt("Digite o segundo número:"));
+    
+        //Processamento
+        if (num1 === num2) {
+            alert("Os dois números são iguais.");
+        } else {
+            if (num1 > num2) {
+                alert("O maior número é: " + num1);
+            } else {
+                alert("O maior número é: " + num2);
+            }
+        }
+    }
+    
+    maiorNumero();
+    
+    </script>

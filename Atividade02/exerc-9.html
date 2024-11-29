@@ -1,0 +1,17 @@
+<script>
+   // Calculando o valor das maçãs Declaração: Uma fruteira oferece um desconto para a compra de maçãs de uma dúzia. Escreva um programa que calcule o valor total a ser pago por um cliente, considerando a quantidade de maçãs compradas e o preço unitário de acordo com a quantidade.
+
+   let quantidade = parseFloat(prompt("Digite o número de maçãs:"));
+
+// Processamento
+let resposta = 0; 
+
+if (quantidade >= 12) {
+    resposta = quantidade * 0.40; 
+} else {
+    resposta = quantidade * 0.15; 
+}
+// Saída
+document.write("R$" + resposta); 
+
+</script>
